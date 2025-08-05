@@ -14,13 +14,17 @@ export const metadata = {
   description: 'Mashur landing page built with Next.js 15.',
 };
 
+// ... imports
+
 export default function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: { locale: string };
 }) {
   return (
-    <html lang="en">
+    <html lang={params.locale}>
       <body className={inter.className}>
         <Providers>
           <Header />

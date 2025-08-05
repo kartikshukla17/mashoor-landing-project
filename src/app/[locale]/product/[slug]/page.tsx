@@ -73,50 +73,78 @@ export default async function ProductPage({ params }: PageProps) {
   const hasValidImage = product.image && product.image !== '<url>';
 
   return (
-    <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row gap-8">
-      <div className="flex-1">
-        {/* Use the new hasValidImage variable for the check */}
-        {hasValidImage ? (
-          <Image
-            src={product.image}
-            alt={product.name}
-            width={640}
-            height={480}
-            className="w-full rounded-lg object-cover"
-          />
-        ) : (
-          // Placeholder for the detail page if no image
-          <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center rounded-lg">
-            <span className="text-gray-500">No Image Available</span>
+    <div className="container mx-auto px-4 py-16 max-w-5xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        
+        {/* Image Section */}
+        <div className="space-y-4">
+          {hasValidImage ? (
+            <div className="relative aspect-square rounded-2xl overflow-hidden bg-white dark:bg-gray-800 shadow-lg">
+              <Image
+                src={product.image}
+                alt={product.name}
+                width={640}
+                height={640}
+                className="w-full h-full object-cover"
+                priority
+              />
+            </div>
+          ) : (
+            <div className="aspect-square bg-gray-50 dark:bg-gray-800 flex items-center justify-center rounded-2xl border-2 border-dashed border-gray-200 dark:border-gray-600">
+              <div className="text-center">
+                <svg className="w-16 h-16 mx-auto text-gray-300 dark:text-gray-600 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span className="text-gray-400 dark:text-gray-500 font-medium">No image available</span>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Product Details */}
+        <div className="space-y-8">
+          <div className="space-y-4">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+              {product.name}
+            </h1>
+            
+            <div className="text-2xl font-semibold text-gray-900 dark:text-white">
+              {product.price} <span className="text-lg text-gray-600 dark:text-gray-400">{product.currency}</span>
+            </div>
           </div>
-        )}
+
+          <div className="space-y-3">
+            <h2 className="text-lg font-medium text-gray-900 dark:text-white">Description</h2>
+            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+              {product.description}
+            </p>
+          </div>
+
+          <div className="pt-6 border-t border-gray-200 dark:border-gray-700">
+            <AddToFavouriteButton product={product} />
+          </div>
+        </div>
       </div>
-      <div className="flex-1 space-y-4">
-        <h1 className="text-3xl font-bold">{product.name}</h1>
-        <p className="text-gray-600 dark:text-gray-400">{product.description}</p>
-        <p className="text-xl font-semibold">
-          {product.price} {product.currency}
-        </p>
-        <AddToFavouriteButton product={product} />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Product',
-              name: product.name,
-              description: product.description,
-              image: hasValidImage ? product.image : '',
-              offers: {
-                '@type': 'Offer',
-                priceCurrency: product.currency,
-                price: product.price,
-                availability: 'https://schema.org/InStock',
-              },
-            }),
-          }}
-        />
-      </div>
+
+      {/* Schema.org JSON-LD - Preserved exactly as original */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Product',
+            name: product.name,
+            description: product.description,
+            image: hasValidImage ? product.image : '',
+            offers: {
+              '@type': 'Offer',
+              priceCurrency: product.currency,
+              price: product.price,
+              availability: 'https://schema.org/InStock',
+            },
+          }),
+        }}
+      />
     </div>
   );
 }
