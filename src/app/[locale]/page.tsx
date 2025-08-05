@@ -3,41 +3,24 @@ import Hero from '@/components/organisms/Hero';
 import ProductCard from '@/components/molecules/ProductCard';
 import { Metadata } from 'next';
 
-interface PageProps {
+// Define the props type directly here
+type PageProps = {
   params: { locale: string };
-}
+};
 
-// Generate SEO metadata per locale
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale } = params;
   return {
     title: locale === 'tr' ? 'Ana Sayfa' : 'Home',
     description:
       locale === 'tr'
         ? 'Klasik, altın tokalı ve kanvas kemerlerimizi keşfedin.'
         : 'Discover our collection of classic, gold buckle and canvas belts.',
-    openGraph: {
-      title: locale === 'tr' ? 'Ana Sayfa' : 'Home',
-      description:
-        locale === 'tr'
-          ? 'Klasik, altın tokalı ve kanvas kemerlerimizi keşfedin.'
-          : 'Discover our collection of classic, gold buckle and canvas belts.',
-      type: 'website',
-      url: '/',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: locale === 'tr' ? 'Ana Sayfa' : 'Home',
-      description:
-        locale === 'tr'
-          ? 'Klasik, altın tokalı ve kanvas kemerlerimizi keşfedin.'
-          : 'Discover our collection of classic, gold buckle and canvas belts.',
-    },
   };
 }
 
 export default async function Page({ params }: PageProps) {
-  const { locale } = await params;
+  const { locale } = params;
   const products = await getProducts(locale);
   return (
     <div>
