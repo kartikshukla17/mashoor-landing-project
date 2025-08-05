@@ -11,26 +11,22 @@ export const metadata = {
     default: 'Mashur Landing',
     template: '%s · Mashur ',
   },
-  description: 'Mashur landing page built with Next.js 15.',
+  description: 'Mashur landing page built with Next.js 15.',
 };
-
-// ... imports
 
 export default function RootLayout({
   children,
-  params,
+  params: { locale },
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
   return (
-    <html lang={params.locale}>
+    <html lang={locale}>
       <body className={inter.className}>
         <Providers>
           <Header />
-          <main className="min-h-screen flex flex-col">
-            {children}
-          </main>
+          <main className="min-h-screen flex flex-col">{children}</main>
           <Footer />
         </Providers>
       </body>
