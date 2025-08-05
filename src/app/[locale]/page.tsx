@@ -9,7 +9,7 @@ interface PageProps {
 
 // Generate SEO metadata per locale
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { locale } = params;
+  const { locale } = await params;
   return {
     title: locale === 'tr' ? 'Ana Sayfa' : 'Home',
     description:
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function Page({ params }: PageProps) {
-  const { locale } = params;
+  const { locale } = await params;
   const products = await getProducts(locale);
   return (
     <div>
