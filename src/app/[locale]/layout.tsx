@@ -13,15 +13,19 @@ export const metadata = {
   },
   description: 'Mashur landing page built with Next.js 15.',
 };
+export async function generateStaticParams() {
+  // Declare supported locales so Next.js doesn’t infer an async type for params
+  return [{ locale: 'en' }, { locale: 'tr' }];
+}
 
-export default async function LocaleLayout({
+export default function LocaleLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: { locale: string };
 }) {
-  const { locale } = await params;
+  const { locale } =  params;
   return (
     <html lang={locale}>
       <body className={inter.className}>
