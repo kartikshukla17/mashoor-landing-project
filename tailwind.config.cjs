@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Custom colours to mirror Calvero aesthetics
+        // Custom colours to mirror Mashur aesthetics
         primary: '#161616',
         secondary: '#F5F5F5',
         accent: '#D4AF37',

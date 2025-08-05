@@ -12,15 +12,11 @@
     },
     "price": 120,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "image": "<url>",
     "material": "full-grain leather",
     "color": "brown",
     "width": "3.8cm",
-    "length": [
-      "90cm",
-      "105cm",
-      "120cm"
-    ],
+    "length": ["90cm", "105cm", "120cm"],
     "buckle_type": "metal",
     "care_instructions": {
       "en": "Wipe with a damp cloth, avoid water soaking",
@@ -29,701 +25,458 @@
   },
   {
     "id": "2",
-    "slug": "gold-buckle-belt",
+    "slug": "minimalist-buckle-belt",
     "name": {
-      "en": "Gold Buckle Belt",
-      "tr": "Altın Tokalı Kemer"
+      "en": "Minimalist Buckle Belt",
+      "tr": "Minimalist Burçlu Kemer"
     },
     "description": {
-      "en": "An elegant belt featuring a polished gold buckle for a sophisticated look.",
-      "tr": "Şık, parlak altın tokası ile sofistike bir görünüm sağlayan kemer."
+      "en": "Simple yet stylish design, perfect for casual and formal occasions.",
+      "tr": "Basit ancak stilili tasarım, günlük ve resmi etkinlikler için idealdir."
     },
-    "price": 150,
+    "price": 95,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/298864/pexels-photo-298864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "leather with metal buckle",
-    "color": "black with gold buckle",
-    "width": "4.0cm",
-    "length": [
-      "95cm",
-      "110cm",
-      "125cm"
-    ],
-    "buckle_type": "gold-plated metal",
+    "image": "<url>",
+    "material": "genuine leather",
+    "color": "black",
+    "width": "3.5cm",
+    "length": ["100cm", "115cm", "130cm"],
+    "buckle_type": "pin",
     "care_instructions": {
-      "en": "Metal buckle can be polished with specialized cleaner",
-      "tr": "Metal tokası spesyal temizleme ile parlatılabilir"
+      "en": "Wipe with a soft cloth, avoid prolonged exposure to sunlight",
+      "tr": "Yumuşak bezle silin, uzun süreli güneş ışığına maruz kalmaması önerilir"
     }
   },
   {
     "id": "3",
-    "slug": "canvas-casual-belt",
+    "slug": "vintage-canvas-belt",
     "name": {
-      "en": "Canvas Casual Belt",
-      "tr": "Kanvas Günlük Kemer"
+      "en": "Vintage Canvas Belt",
+      "tr": "Retro Kanvas Kemer"
     },
     "description": {
-      "en": "Comfortable canvas for everyday wear with durable stitching and a minimalist buckle.",
-      "tr": "Dayanıklı dikiş ve minimalist tokası ile günlük kullanım için rahat kanvas."
+      "en": "Retro-style design with durable canvas material, suitable for outdoor activities.",
+      "tr": "Retro stili tasarım, dayanıklı kanvas malzemesi ile outdoor aktiviteler için uygundur."
     },
-    "price": 80,
+    "price": 75,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "100% cotton canvas",
-    "color": "khaki",
-    "width": "3.5cm",
-    "length": [
-      "85cm",
-      "100cm",
-      "115cm"
-    ],
-    "buckle_type": "metal",
+    "image": "<url>",
+    "material": "canvas",
+    "color": "beige",
+    "width": "3.2cm",
+    "length": ["85cm", "100cm", "115cm"],
+    "buckle_type": "plastic",
     "care_instructions": {
-      "en": "Machine washable at low temperature",
-      "tr": "Düşük sıcaklıkta makine çamaşırı yapılabilir"
+      "en": "MACHINE WASHABLE",
+      "tr": "Makine yıkama uygunudur"
     }
   },
   {
     "id": "4",
-    "slug": "luxury-alligator-belt",
+    "slug": "sport-nylon-belt",
     "name": {
-      "en": "Luxury Alligator Belt",
-      "tr": "Lüks Timsah Derisi Kemer"
+      "en": "Sport Nylon Belt",
+      "tr": "Spor Nyilon Kemer"
     },
     "description": {
-      "en": "Exquisite alligator leather belt with handcrafted details and premium hardware.",
-      "tr": "Elle işlenmiş detaylar ve lüks donanımlı timsah derisi kemer."
+      "en": "Lightweight and breathable nylon material, ideal for sports and fitness.",
+      "tr": "Hafif ve nefes alabilen nyilon malzemesi, spor ve fitness için idealdir."
     },
-    "price": 450,
+    "price": 65,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/5360109/pexels-photo-5360109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "alligator leather",
-    "color": "dark brown",
-    "width": "3.8cm",
-    "length": [
-      "95cm",
-      "110cm",
-      "125cm"
-    ],
-    "buckle_type": "silver-plated metal",
+    "image": "<url>",
+    "material": "nylon",
+    "color": "blue",
+    "width": "4.0cm",
+    "length": ["100cm", "115cm", "130cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Professional leather care recommended",
-      "tr": "Profesyonel deri bakımı önerilir"
+      "en": "Machine washable, air dry",
+      "tr": "Makine yıkama uygunudur, hava kurutulmalıdır"
     }
   },
   {
     "id": "5",
-    "slug": "sport-nylon-belt",
+    "slug": "fashion-stitch-belt",
     "name": {
-      "en": "Sport Nylon Belt",
-      "tr": "Spor Nilon Kemer"
+      "en": "Fashion Stitch Belt",
+      "tr": "Moda Dikişli Kemer"
     },
     "description": {
-      "en": "Lightweight and durable nylon belt designed for active lifestyles with quick-dry technology.",
-      "tr": "Hafif ve dayanıklı nilon kemer, hızlı kuruma teknolojisi ile aktif yaşam tarzları için tasarlanmıştır."
+      "en": "Decorative stitching design adds a trendy touch to your outfit.",
+      "tr": "Dekoratif dikiş deseni kombinenize birkaç trend el ekler."
     },
-    "price": 65,
+    "price": 85,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/4514778/pexels-photo-4514778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "nylon with plastic buckle",
-    "color": "navy blue",
-    "width": "3.0cm",
-    "length": [
-      "80cm",
-      "95cm",
-      "110cm"
-    ],
-    "buckle_type": "plastic",
+    "image": "<url>",
+    "material": "genuine leather",
+    "color": "brown",
+    "width": "3.5cm",
+    "length": ["90cm", "105cm", "120cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Machine washable, avoid high temperature",
-      "tr": "Makine çamaşırı yapılabilir, yüksek sıcaklıkten kaçınılmalı"
+      "en": "Wipe with a damp cloth, avoid contact with chemicals",
+      "tr": "Nemli bezle silin, kimyasallar ile teması kaçınılmalı"
     }
   },
   {
     "id": "6",
-    "slug": "vintage-leather-belt",
+    "slug": "casual-denim-belt",
     "name": {
-      "en": "Vintage Leather Belt",
-      "tr": "Retro Deri Kemer"
+      "en": "Casual Denim Belt",
+      "tr": "Kasual Kot Kemer"
     },
     "description": {
-      "en": "Aged leather belt with distressed finish and antique brass buckle for a vintage look.",
-      "tr": "Yaşlanmış deri kaplama ve antik bronz tokası ile vintage görünümü sağlayan kemer."
+      "en": "Casual denim material, perfect for jeans and casual wear.",
+      "tr": "Kasual kot malzemesi, kot pantolonlar ve günlük giyimlerle mükemmel bir eşleşmedir."
     },
-    "price": 180,
+    "price": 55,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/6026640/pexels-photo-6026640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "vintage-finished leather",
-    "color": "saddle brown",
-    "width": "4.2cm",
-    "length": [
-      "90cm",
-      "105cm",
-      "120cm"
-    ],
-    "buckle_type": "antique brass",
+    "image": "<url>",
+    "material": "denim",
+    "color": "blue",
+    "width": "3.0cm",
+    "length": ["80cm", "95cm", "110cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Condition with leather oil periodically",
-      "tr": "Dermi yağla düzenli olarak koşullandırılmalı"
+      "en": "Machine washable, tumble dry low",
+      "tr": "Makine yıkama uygunudur, düşük ısıda kurutulmalı"
     }
   },
-  [
   {
     "id": "7",
-    "slug": "minimalist-black-belt",
+    "slug": "formal-metal-buckle-belt",
     "name": {
-      "en": "Minimalist Black Belt",
-      "tr": "Minimalist Siyah Kemer"
+      "en": "Formal Metal Buckle Belt",
+      "tr": "Resmi Metal Burçlu Kemer"
     },
     "description": {
-      "en": "Sleek black belt with a thin profile and matte buckle, perfect for modern style.",
-      "tr": "İnce profilli mat tokalı şık siyah kemer, modern stil için ideal."
+      "en": "Elegant metal buckle paired with smooth leather, ideal for formal occasions.",
+      "tr": "Elegant metal burç ve pürüzsüz derinin birleşimi, resmi etkinlikler için idealdir."
     },
-    "price": 90,
+    "price": 130,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/1008151/pexels-photo-1008151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "genuine leather",
+    "image": "<url>",
+    "material": "full-grain leather",
     "color": "black",
-    "width": "2.5cm",
-    "length": [
-      "85cm",
-      "100cm",
-      "115cm"
-    ],
-    "buckle_type": "matte metal",
+    "width": "3.8cm",
+    "length": ["95cm", "110cm", "125cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Avoid water exposure; wipe clean with dry cloth",
-      "tr": "Su ile temasından kaçının; kuru bezle temizleyin"
+      "en": "Wipe with a damp cloth, store in a dry place",
+      "tr": "Nemli bezle silin, kurutulmalı ve kuru bir yerde saklanmalıdır"
     }
   },
   {
     "id": "8",
-    "slug": "woven-fabric-belt",
+    "slug": "belt-with-adjustable-length",
     "name": {
-      "en": "Woven Fabric Belt",
-      "tr": "Örgü Kumaş Kemer"
+      "en": "Belt with Adjustable Length",
+      "tr": "Uzunluğu Ayarlanabilir Kemer"
     },
     "description": {
-      "en": "Handwoven fabric belt with vibrant colors and adjustable buckle closure.",
-      "tr": "Canlı renklerde, ayarlanabilir tokalı el örgüsü kumaş kemer."
+      "en": "Adjustable length design caters to different body sizes and preferences.",
+      "tr": "Uzunluğu ayarlanabilir tasarım farklı bedenler ve tercişlere uyumludur."
     },
-    "price": 55,
+    "price": 80,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/3750917/pexels-photo-3750917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "cotton fabric",
-    "color": "multicolor",
+    "image": "<url>",
+    "material": "genuine leather",
+    "color": "brown",
     "width": "3.5cm",
-    "length": [
-      "90cm",
-      "105cm",
-      "120cm"
-    ],
-    "buckle_type": "metal clamp",
+    "length": ["85cm-130cm"],
+    "buckle_type": "pin",
     "care_instructions": {
-      "en": "Spot clean only; avoid machine wash",
-      "tr": "Sadece leke temizliği; makinede yıkamayın"
+      "en": "Wipe with a soft cloth, avoid water",
+      "tr": "Yumuşak bezle silin, suya maruz kalmaması önerilir"
     }
   },
   {
     "id": "9",
-    "slug": "double-prong-belt",
+    "slug": "belt-with-double-buckle",
     "name": {
-      "en": "Double Prong Belt",
-      "tr": "Çift Tokalı Kemer"
+      "en": "Belt with Double Buckle",
+      "tr": "Çift Burçlu Kemer"
     },
     "description": {
-      "en": "Strong double prong buckle belt made from durable leather for extra hold.",
-      "tr": "Ekstra tutuş için dayanıklı deriden yapılmış çift tokalı kemer."
+      "en": "Double buckle design provides additional security and style.",
+      "tr": "Çift burç tasarımı ekstra güven ve stil kazandırır."
     },
-    "price": 140,
+    "price": 100,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/211037/pexels-photo-211037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "image": "<url>",
     "material": "full-grain leather",
-    "color": "dark tan",
-    "width": "4.0cm",
-    "length": [
-      "95cm",
-      "110cm",
-      "125cm"
-    ],
-    "buckle_type": "double prong metal",
+    "color": "black",
+    "width": "3.8cm",
+    "length": ["105cm", "120cm", "135cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Apply leather conditioner monthly",
-      "tr": "Aylık deri kremi sürülmeli"
+      "en": "Wipe with a damp cloth, avoid prolonged exposure to sunlight",
+      "tr": "Nemli bezle silin, uzun süreli güneş ışığına maruz kalmaması önerilir"
     }
   },
   {
     "id": "10",
-    "slug": "braided-leather-belt",
+    "slug": "belt-with-colorful-buckle",
     "name": {
-      "en": "Braided Leather Belt",
-      "tr": "Örgülü Deri Kemer"
+      "en": "Belt with Colorful Buckle",
+      "tr": "Renkli Burçlu Kemer"
     },
     "description": {
-      "en": "Flexible braided leather belt providing comfort and style with a bronze buckle.",
-      "tr": "Bronz tokalı esnek örgülü deri kemer, konfor ve tarz sunar."
+      "en": "Colorful metal buckle adds a unique touch to your outfit.",
+      "tr": "Renkli metal burç kombinenize birikmeyi kırar."
     },
-    "price": 130,
+    "price": 75,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/3372648/pexels-photo-3372648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "braided leather",
-    "color": "medium brown",
-    "width": "3.8cm",
-    "length": [
-      "90cm",
-      "105cm",
-      "120cm"
-    ],
-    "buckle_type": "bronze metal",
+    "image": "<url>",
+    "material": "genuine leather",
+    "color": "brown",
+    "width": "3.5cm",
+    "length": ["90cm", "105cm", "120cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Keep leather moisturized; avoid direct sunlight",
-      "tr": "Deriyi nemlendirin; doğrudan güneşten koruyun"
+      "en": "Wipe with a damp cloth, avoid contact with chemicals",
+      "tr": "Nemli bezle silin, kimyasallar ile teması kaçınılmalı"
     }
   },
   {
     "id": "11",
-    "slug": "reversible-leather-belt",
+    "slug": "belt-with-embossed-pattern",
     "name": {
-      "en": "Reversible Leather Belt",
-      "tr": "Çift Taraflı Deri Kemer"
+      "en": "Belt with Embossed Pattern",
+      "tr": "Basma Desenli Kemer"
     },
     "description": {
-      "en": "Versatile reversible belt with black and tan leather sides and a polished buckle.",
-      "tr": "Siyah ve kahverengi deri yüzeyleri olan çift taraflı, parlak tokalı çok amaçlı kemer."
+      "en": "Delicate embossed pattern enhances the belt's elegance.",
+      "tr": "İnce basma desen kemerin zarafetini artırır."
     },
-    "price": 160,
+    "price": 90,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/298865/pexels-photo-298865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "genuine leather",
-    "color": "black/tan",
-    "width": "4.0cm",
-    "length": [
-      "95cm",
-      "110cm",
-      "125cm"
-    ],
-    "buckle_type": "rotating metal",
+    "image": "<url>",
+    "material": "full-grain leather",
+    "color": "black",
+    "width": "3.8cm",
+    "length": ["95cm", "110cm", "125cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Avoid excessive twisting; clean with leather wipes",
-      "tr": "Aşırı burkulmadan kaçının; deri mendillerle temizleyin"
+      "en": "Wipe with a soft cloth, avoid water",
+      "tr": "Yumuşak bezle silin, suya maruz kalmaması önerilir"
     }
   },
   {
     "id": "12",
-    "slug": "ladies-slim-belt",
+    "slug": "belt-with-magnetic-buckle",
     "name": {
-      "en": "Ladies Slim Belt",
-      "tr": "Kadın İnce Kemer"
+      "en": "Belt with Magnetic Buckle",
+      "tr": "Manyetik Burçlu Kemer"
     },
     "description": {
-      "en": "Elegant slim belt designed for women, with faux leather and silver buckle.",
-      "tr": "Kadınlar için tasarlanmış şık ince kemer, suni deri ve gümüş tokalı."
+      "en": "Magnetic buckle design ensures quick and easy fastening.",
+      "tr": "Manyetik burç tasarımı hızlı ve kolay kapatma imkanı sağlar."
     },
-    "price": 70,
+    "price": 110,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "synthetic leather",
-    "color": "white",
-    "width": "2.0cm",
-    "length": [
-      "80cm",
-      "90cm",
-      "100cm"
-    ],
-    "buckle_type": "silver metal",
+    "image": "<url>",
+    "material": "genuine leather",
+    "color": "brown",
+    "width": "3.5cm",
+    "length": ["90cm", "105cm", "120cm"],
+    "buckle_type": "magnetic",
     "care_instructions": {
-      "en": "Clean with damp cloth; avoid abrasive cleaners",
-      "tr": "Nemli bezle temizleyin; aşındırıcı temizleyicilerden kaçının"
+      "en": "Wipe with a damp cloth, avoid water soaking",
+      "tr": "Nemli bezle silin, su batması kaçınılmalı"
     }
   },
   {
     "id": "13",
-    "slug": "denim-fabric-belt",
+    "slug": "belt-with-studded-buckle",
     "name": {
-      "en": "Denim Fabric Belt",
-      "tr": "Kot Kumaş Kemer"
+      "en": "Belt with Studded Buckle",
+      "tr": "Şeritli Burçlu Kemer"
     },
     "description": {
-      "en": "Casual denim fabric belt with metal buckle, perfect for relaxed outfits.",
-      "tr": "Rahat kıyafetler için metal tokalı gündelik kot kumaş kemer."
+      "en": "Studded buckle design adds a bold statement to your outfit.",
+      "tr": "Şeritli burç tasarımı kombinenize cesur bir ifade katır."
     },
-    "price": 60,
+    "price": 95,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/1598502/pexels-photo-1598502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "denim fabric",
-    "color": "blue denim",
-    "width": "3.5cm",
-    "length": [
-      "85cm",
-      "100cm",
-      "115cm"
-    ],
+    "image": "<url>",
+    "material": "full-grain leather",
+    "color": "black",
+    "width": "3.8cm",
+    "length": ["100cm", "115cm", "130cm"],
     "buckle_type": "metal",
     "care_instructions": {
-      "en": "Machine wash cold, air dry",
-      "tr": "Soğuk makine yıkama, doğal kurutma"
+      "en": "Wipe with a soft cloth, avoid prolonged exposure to sunlight",
+      "tr": "Yumuşak bezle silin, uzun süreli güneş ışığına maruz kalmaması önerilir"
     }
   },
   {
     "id": "14",
-    "slug": "suede-classic-belt",
+    "slug": "belt-with-woven-buckle",
     "name": {
-      "en": "Suede Classic Belt",
-      "tr": "Süet Klasik Kemer"
+      "en": "Belt with Woven Buckle",
+      "tr": "Örgü Burçlu Kemer"
     },
     "description": {
-      "en": "Soft suede leather belt with classic buckle, adding texture to any look.",
-      "tr": "Klasik tokalı yumuşak süet deri kemer, her görünüme doku katıyor."
+      "en": "Unique woven buckle design combines functionality and style.",
+      "tr": "Örgü burç tasarımı fonctionel ve stilili bir birleşimidir."
     },
-    "price": 110,
+    "price": 105,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/5740751/pexels-photo-5740751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "suede leather",
-    "color": "tan",
-    "width": "3.8cm",
-    "length": [
-      "90cm",
-      "105cm",
-      "120cm"
-    ],
+    "image": "<url>",
+    "material": "genuine leather",
+    "color": "brown",
+    "width": "3.5cm",
+    "length": ["85cm", "100cm", "115cm"],
     "buckle_type": "metal",
     "care_instructions": {
-      "en": "Use suede brush for cleaning; avoid water",
-      "tr": "Temizlik için süet fırçası kullanın; suya maruz bırakmayın"
+      "en": "Wipe with a damp cloth, avoid water",
+      "tr": "Nemli bezle silin, suya maruz kalmaması önerilir"
     }
   },
   {
     "id": "15",
-    "slug": "elastic-fabric-belt",
+    "slug": "belt-with-carved-buckle",
     "name": {
-      "en": "Elastic Fabric Belt",
-      "tr": "Esnek Kumaş Kemer"
+      "en": "Belt with Carved Buckle",
+      "tr": "Oymalı Burçlu Kemer"
     },
     "description": {
-      "en": "Stretchy fabric belt with easy-to-use buckle, perfect for comfort and flexibility.",
-      "tr": "Konfor ve esneklik için kullanımı kolay tokalı esnek kumaş kemer."
+      "en": "Intricate carved buckle adds artistic flair to your outfit.",
+      "tr": "Detaylı oymalı burç kombinenize sanatsal bir dokunuş kazandırır."
     },
-    "price": 50,
+    "price": 125,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/1770809/pexels-photo-1770809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "elastic fabric",
-    "color": "grey",
-    "width": "4.0cm",
-    "length": [
-      "90cm",
-      "105cm",
-      "120cm"
-    ],
-    "buckle_type": "plastic snap",
+    "image": "<url>",
+    "material": "full-grain leather",
+    "color": "black",
+    "width": "3.8cm",
+    "length": ["95cm", "110cm", "125cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Hand wash gently; air dry",
-      "tr": "Nazikçe elde yıkayın; doğal kurutma"
+      "en": "Wipe with a soft cloth, avoid contact with chemicals",
+      "tr": "Yumuşak bezle silin, kimyasallar ile teması kaçınılmalı"
     }
   },
   {
     "id": "16",
-    "slug": "army-style-canvas-belt",
+    "slug": "belt-with-riveted-buckle",
     "name": {
-      "en": "Army Style Canvas Belt",
-      "tr": "Ordu Tarzı Kanvas Kemer"
+      "en": "Belt with Riveted Buckle",
+      "tr": "Dövme Burçlu Kemer"
     },
     "description": {
-      "en": "Rugged canvas belt inspired by military designs with a sturdy metal buckle.",
-      "tr": "Askeri tasarımlardan ilham alan sağlam metal tokalı dayanıklı kanvas kemer."
+      "en": "Riveted buckle design offers durability and a vintage look.",
+      "tr": "Dövme burç tasarımı dayanıklılık ve retro bir görünüm sunar."
     },
-    "price": 75,
+    "price": 90,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/596664/pexels-photo-596664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "canvas",
-    "color": "olive green",
-    "width": "3.8cm",
-    "length": [
-      "85cm",
-      "100cm",
-      "115cm"
-    ],
-    "buckle_type": "metal clamp",
+    "image": "<url>",
+    "material": "genuine leather",
+    "color": "brown",
+    "width": "3.5cm",
+    "length": ["90cm", "105cm", "120cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Spot clean with mild detergent",
-      "tr": "Hafif deterjanla leke temizliği yapın"
+      "en": "Wipe with a damp cloth, avoid water soaking",
+      "tr": "Nemli bezle silin, su batması kaçınılmalı"
     }
   },
   {
     "id": "17",
-    "slug": "patent-leather-belt",
+    "slug": "belt-with-patterned-buckle",
     "name": {
-      "en": "Patent Leather Belt",
-      "tr": "Lake Deri Kemer"
+      "en": "Belt with Patterned Buckle",
+      "tr": "Desenli Burçlu Kemer"
     },
     "description": {
-      "en": "Glossy patent leather belt with shiny finish and stylish metal buckle.",
-      "tr": "Parlak lake deri kemer, şık metal tokasıyla parlak görünüm sağlar."
+      "en": "Distinctive patterned buckle makes a bold fashion statement.",
+      "tr": "ünlü desenli burç cesur bir moda ifadesi sunar."
     },
-    "price": 170,
+    "price": 100,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/3345742/pexels-photo-3345742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "patent leather",
+    "image": "<url>",
+    "material": "full-grain leather",
     "color": "black",
     "width": "3.8cm",
-    "length": [
-      "90cm",
-      "105cm",
-      "120cm"
-    ],
-    "buckle_type": "shiny metal",
+    "length": ["100cm", "115cm", "130cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Wipe with soft cloth; avoid scratches",
-      "tr": "Yumuşak bezle silin; çiziklerden kaçının"
+      "en": "Wipe with a soft cloth, avoid prolonged exposure to sunlight",
+      "tr": "Yumuşak bezle silin, uzun süreli güneş ışığına maruz kalmaması önerilir"
     }
   },
   {
     "id": "18",
-    "slug": "cowhide-leather-belt",
+    "slug": "belt-with-textured-buckle",
     "name": {
-      "en": "Cowhide Leather Belt",
-      "tr": "Dişi Deri Kemer"
+      "en": "Belt with Textured Buckle",
+      "tr": "Doku Burçlu Kemer"
     },
     "description": {
-      "en": "Durable cowhide belt with natural grain texture and nickel buckle.",
-      "tr": "Doğal taneli dokulu ve nikel tokalı dayanıklı dişi deri kemer."
+      "en": "Textured buckle adds depth and character to the belt.",
+      "tr": "Doku burç kemerin derinlik ve karakterine katkıda bulunur."
     },
-    "price": 135,
+    "price": 85,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/271285/pexels-photo-271285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "cowhide leather",
-    "color": "dark brown",
-    "width": "4.0cm",
-    "length": [
-      "95cm",
-      "110cm",
-      "125cm"
-    ],
-    "buckle_type": "nickel metal",
+    "image": "<url>",
+    "material": "genuine leather",
+    "color": "brown",
+    "width": "3.5cm",
+    "length": ["85cm", "100cm", "115cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Use leather conditioner monthly",
-      "tr": "Aylık deri kremi kullanın"
+      "en": "Wipe with a damp cloth, avoid water",
+      "tr": "Nemli bezle silin, suya maruz kalmaması önerilir"
     }
   },
   {
     "id": "19",
-    "slug": "water-resistant-nylon-belt",
+    "slug": "belt-with-animated-buckle",
     "name": {
-      "en": "Water Resistant Nylon Belt",
-      "tr": "Suya Dayanıklı Nilon Kemer"
+      "en": "Belt with Animated Buckle",
+      "tr": "Animasyonlu Burçlu Kemer"
     },
     "description": {
-      "en": "Perfect for outdoor activities, this nylon belt resists water and dries quickly.",
-      "tr": "Açık hava aktiviteleri için ideal, suya dayanıklı ve hızlı kuruyan nilon kemer."
+      "en": "Animated design adds a playful touch to your outfit.",
+      "tr": "Animasyonlu tasarım kombinenize biraz oynamacılık kazandırır."
     },
-    "price": 70,
+    "price": 95,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/1492258/pexels-photo-1492258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "nylon",
+    "image": "<url>",
+    "material": "full-grain leather",
     "color": "black",
-    "width": "3.2cm",
-    "length": [
-      "85cm",
-      "100cm",
-      "115cm"
-    ],
-    "buckle_type": "plastic quick-release",
+    "width": "3.8cm",
+    "length": ["95cm", "110cm", "125cm"],
+    "buckle_type": "metal",
     "care_instructions": {
-      "en": "Rinse after exposure to water; air dry",
-      "tr": "Suya maruz kalınca durulayın; doğal kurutun"
+      "en": "Wipe with a soft cloth, avoid contact with chemicals",
+      "tr": "Yumuşak bezle silin, kimyasallar ile teması kaçınılmalı"
     }
   },
   {
     "id": "20",
-    "slug": "formal-black-leather-belt",
+    "slug": "belt-with-geomatric-buckle",
     "name": {
-      "en": "Formal Black Leather Belt",
-      "tr": "Resmi Siyah Deri Kemer"
+      "en": "Belt with Geometric Buckle",
+      "tr": "Geometrik Burçlu Kemer"
     },
     "description": {
-      "en": "Classic formal belt made of fine leather with a polished silver buckle.",
-      "tr": "İnce deriden yapılmış klasik resmi kemer, parlak gümüş tokalı."
+      "en": "Geometric patterned buckle brings modernity to your look.",
+      "tr": "Geometrik desenli burç kombinenize modern bir hava kazandırır."
     },
-    "price": 145,
+    "price": 110,
     "currency": "USD",
-    "image": "https://images.pexels.com/photos/4049724/pexels-photo-4049724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "fine leather",
-    "color": "black",
+    "image": "<url>",
+    "material": "genuine leather",
+    "color": "brown",
     "width": "3.5cm",
-    "length": [
-      "90cm",
-      "105cm",
-      "120cm"
-    ],
-    "buckle_type": "polished silver",
-    "care_instructions": {
-      "en": "Avoid moisture; polish buckle regularly",
-      "tr": "Neme karşı koruyun; tokayı düzenli parlatın"
-    }
-  },
-  {
-    "id": "21",
-    "slug": "faux-snakeskin-belt",
-    "name": {
-      "en": "Faux Snakeskin Belt",
-      "tr": "Sahte Yılan Derisi Kemer"
-    },
-    "description": {
-      "en": "Stylish faux snakeskin belt with a unique texture and silver buckle detail.",
-      "tr": "Benzersiz doku ve gümüş tokalı detay ile şık sahte yılan derisi kemer."
-    },
-    "price": 100,
-    "currency": "USD",
-    "image": "https://images.pexels.com/photos/1819644/pexels-photo-1819644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "synthetic leather",
-    "color": "grey",
-    "width": "3.8cm",
-    "length": [
-      "85cm",
-      "100cm",
-      "115cm"
-    ],
-    "buckle_type": "silver metal",
-    "care_instructions": {
-      "en": "Clean with a damp cloth; avoid direct heat",
-      "tr": "Nemli bezle temizleyin; doğrudan ısıdan kaçının"
-    }
-  },
-  {
-    "id": "22",
-    "slug": "cowboy-style-belt",
-    "name": {
-      "en": "Cowboy Style Belt",
-      "tr": "Kovboy Tarzı Kemer"
-    },
-    "description": {
-      "en": "Leather cowboy belt featuring engraved patterns and a large buckle.",
-      "tr": "Oyma desenlere ve büyük tokalı deri kovboy kemer."
-    },
-    "price": 175,
-    "currency": "USD",
-    "image": "https://images.pexels.com/photos/259166/pexels-photo-259166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "engraved leather",
-    "color": "rustic brown",
-    "width": "4.5cm",
-    "length": [
-      "95cm",
-      "110cm",
-      "125cm"
-    ],
-    "buckle_type": "engraved metal",
-    "care_instructions": {
-      "en": "Regular leather care and avoid water",
-      "tr": "Düzenli deri bakımı; sudan uzak tutun"
-    }
-  },
-  {
-    "id": "23",
-    "slug": "modern-rubber-belt",
-    "name": {
-      "en": "Modern Rubber Belt",
-      "tr": "Modern Kauçuk Kemer"
-    },
-    "description": {
-      "en": "Flexible rubber belt ideal for casual wear and water activities.",
-      "tr": "Gündelik kullanım ve su aktiviteleri için ideal esnek kauçuk kemer."
-    },
-    "price": 45,
-    "currency": "USD",
-    "image": "https://images.pexels.com/photos/376974/pexels-photo-376974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "rubber",
-    "color": "black",
-    "width": "3.0cm",
-    "length": [
-      "80cm",
-      "95cm",
-      "110cm"
-    ],
-    "buckle_type": "plastic",
-    "care_instructions": {
-      "en": "Rinse with water after use; air dry",
-      "tr": "Kullanımdan sonra su ile durulayın; doğal kurutma"
-    }
-  },
-  {
-    "id": "24",
-    "slug": "crossbody-style-belt",
-    "name": {
-      "en": "Crossbody Style Belt",
-      "tr": "Çapraz Kemer"
-    },
-    "description": {
-      "en": "Trendy crossbody belt with adjustable strap and metal buckle.",
-      "tr": "Ayarlanabilir askı ve metal tokalı trend çapraz kemer."
-    },
-    "price": 85,
-    "currency": "USD",
-    "image": "https://images.pexels.com/photos/2372943/pexels-photo-2372943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "polyester fabric",
-    "color": "black",
-    "width": "4.5cm",
-    "length": [
-      "120cm"
-    ],
-    "buckle_type": "metal clamp",
-    "care_instructions": {
-      "en": "Spot clean; avoid machine wash",
-      "tr": "Leke temizliği yapın; makinede yıkamayın"
-    }
-  },
-  {
-    "id": "25",
-    "slug": "transparent-plastic-belt",
-    "name": {
-      "en": "Transparent Plastic Belt",
-      "tr": "Şeffaf Plastik Kemer"
-    },
-    "description": {
-      "en": "Fashion-forward transparent belt with metal buckle, suitable for statement looks.",
-      "tr": "Moda öncüsü şeffaf kemer, metal tokalı ve iddialı görünümler için uygun."
-    },
-    "price": 60,
-    "currency": "USD",
-    "image": "https://images.pexels.com/photos/1753774/pexels-photo-1753774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "plastic",
-    "color": "transparent",
-    "width": "3.0cm",
-    "length": [
-      "90cm",
-      "105cm"
-    ],
+    "length": ["90cm", "105cm", "120cm"],
     "buckle_type": "metal",
     "care_instructions": {
-      "en": "Clean with a soft damp cloth; avoid scratching",
-      "tr": "Yumuşak nemli bezle temizleyin; çiziklerden kaçının"
-    }
-  },
-  {
-    "id": "26",
-    "slug": "recycled-material-belt",
-    "name": {
-      "en": "Recycled Material Belt",
-      "tr": "Geri Dönüşümlü Malzeme Kemer"
-    },
-    "description": {
-      "en": "Eco-friendly belt made from recycled materials with minimalist design.",
-      "tr": "Minimalist tasarımlı, geri dönüştürülmüş malzemeden yapılmış çevre dostu kemer."
-    },
-    "price": 95,
-    "currency": "USD",
-    "image": "https://images.pexels.com/photos/3013208/pexels-photo-3013208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    "material": "recycled fabric and plastic",
-    "color": "earth brown",
-    "width": "3.5cm",
-    "length": [
-      "90cm",
-      "105cm",
-      "120cm"
-    ],
-    "buckle_type": "metal",
-    "care_instructions": {
-      "en": "Hand wash recommended; do not bleach",
-      "tr": "Elde yıkama önerilir; ağartıcı kullanmayın"
+      "en": "Wipe with a damp cloth, avoid water soaking",
+      "tr": "Nemli bezle silin, su batması kaçınılmalı"
     }
   }
-]
 ]

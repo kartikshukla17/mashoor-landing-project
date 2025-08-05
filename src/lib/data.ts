@@ -7,9 +7,9 @@ import type { Product, ProductTranslated } from '@/types/product';
  * Return a list of products with their name and description translated for the given locale.
  */
 export async function getProducts(locale: string): Promise<ProductTranslated[]> {
-  // Filter out any products that don't have the required name and description fields
+  // Ensure every product has a name, description, AND image before processing
   const validProducts = (products as unknown as Product[]).filter(
-    (p) => p && p.name && p.description
+    (p) => p && p.name && p.description && p.image 
   );
 
   return validProducts.map((p) => ({
@@ -28,8 +28,8 @@ export async function getProductBySlug(
 ): Promise<ProductTranslated | null> {
   const product = (products as unknown as Product[]).find((p) => p && p.slug === slug);
 
-  // Ensure the found product is valid before translating
-  if (!product || !product.name || !product.description) return null;
+  // Also ensure the product has an image here
+  if (!product || !product.name || !product.description || !product.image) return null;
 
   return {
     ...product,
@@ -39,11 +39,12 @@ export async function getProductBySlug(
   };
 }
 
+// ... (getCategories function remains the same)
+
 /**
  * Return a list of category names translated for the given locale.
  */
 export async function getCategories(locale: string) {
-  // Add a filter here as well for robustness
   return (categories as any)
     .filter((c: any) => c && c.name)
     .map((c: any) => ({
