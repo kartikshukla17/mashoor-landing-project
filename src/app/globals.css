@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-secondary text-primary dark:bg-primary dark:text-secondary;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}

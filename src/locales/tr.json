@@ -1,0 +1,10 @@
+{
+  "add_favorite": "Favorilere ekle",
+  "remove_favorite": "Favorilerden çıkar",
+  "welcome": "Özel kemer koleksiyonumuzu keşfedin",
+  "favorites_title": "Favori Ürünler",
+  "not_found_message": "Aradığınız öğe bulunamadı.",
+  "home_title": "Ana Sayfa",
+  "product_label_price": "Fiyat",
+  "favorites_empty": "Favoriler listeniz boş."
+}

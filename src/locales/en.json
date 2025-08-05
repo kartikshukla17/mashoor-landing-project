@@ -1,0 +1,10 @@
+{
+  "add_favorite": "Add to favourites",
+  "remove_favorite": "Remove from favourites",
+  "welcome": "Discover our premium belts",
+  "favorites_title": "Favourite Products",
+  "not_found_message": "Sorry, the item you are looking for doesn't exist.",
+  "home_title": "Home",
+  "product_label_price": "Price",
+  "favorites_empty": "Your favourites list is empty."
+}
