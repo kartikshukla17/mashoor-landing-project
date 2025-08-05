@@ -6,7 +6,6 @@ import Footer from '@/components/organisms/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-// This metadata can be moved here from the old root layout
 export const metadata = {
   title: {
     default: 'Mashur Landing',
@@ -20,10 +19,11 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   return (
-    <html lang={params.locale}>
+    <html lang={locale}>
       <body className={inter.className}>
         <Providers>
           <Header />
