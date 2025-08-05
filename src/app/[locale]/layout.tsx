@@ -15,7 +15,7 @@ export const metadata = {
   description: 'Mashur landing page built with Next.js 15.',
 };
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: {
