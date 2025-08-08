@@ -7,22 +7,17 @@ import Footer from '@/components/organisms/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: {
-    default: 'Mashur Landing',
-    template: '%s · Mashur ',
-  },
+  title: { default: 'Mashur Landing', template: '%s · Mashur ' },
   description: 'Mashur landing page built with Next.js 15.',
 };
 
 export default function RootLayout({
   children,
-  params: { locale },
 }: {
   children: React.ReactNode;
-  params: { locale: string };
 }) {
   return (
-    <html lang={locale}>
+    <html lang="en">
       <body className={inter.className}>
         <Providers>
           <Header />
